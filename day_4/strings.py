@@ -124,3 +124,39 @@ print(company[-(len('coding')):] == 'coding')
 # 30 - '   Coding For All      '  , remove the left and right trailing spaces in the given string.
 company = '   Coding For All      '
 print(company.strip())
+
+# 31 - Which one of the following variables return True when we use the method isidentifier():
+print('30DaysOfPython'.isidentifier())
+print('thirty_days_of_python'.isidentifier())
+
+# 32 - The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+our_list = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print(', '.join(our_list))
+
+# 33 - Use the new line escape sequence to separate the following sentences.
+str1 = 'I am enjoying this challenge.'
+str2 = 'I just wonder what is next.'
+print(str1 + '\n' + str2)
+
+# 34 - Use a tab escape sequence to write the following lines.
+tab1 = 'Name\tAge\tCountry\tCity'
+tab2 = 'Asabeneh\t250\tFinland\tHelsinki'
+print(tab1.expandtabs(9))
+print(tab2.expandtabs(9))
+
+# 35 - Use the string formatting method to display the following:
+radius = 10
+area = 3.14 * radius ** 2
+print('The area of a circle with radius {} is {:.0f} meters square.'.format(radius, area))
+
+# 36 - Make the following using string formatting methods:
+a = 8
+b = 6
+
+print(f'{a} + {b} = {a + b:5}')
+print(f'{a} + {b} = {a - b:5}')
+print(f'{a} + {b} = {a * b}')
+print(f'{a} + {b} = {a / b:.2f}')
+print(f'{a} + {b} = {a % b}')
+print(f'{a} + {b} = {a // b}')
+print(f'{a} + {b} = {a ** b:e}')
