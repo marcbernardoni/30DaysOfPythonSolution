@@ -7,3 +7,4 @@
 - Day 05 : List
 - Day 06 : Tuple
 - Day 07 : Sets
+- Day 08 : Dictionaries
