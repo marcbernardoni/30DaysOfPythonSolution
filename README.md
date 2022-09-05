@@ -9,3 +9,4 @@
 - Day 07 : Sets
 - Day 08 : Dictionaries
 - Day 09 : Conditionals
+- Day 10 : Loops
