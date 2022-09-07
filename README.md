@@ -10,3 +10,4 @@
 - Day 08 : Dictionaries
 - Day 09 : Conditionals
 - Day 10 : Loops
+- Day 11 : Functions

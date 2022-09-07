@@ -2659,6 +2659,6 @@ for i in range(len(data)):
 
 country_sort = sorted(country.items(), key=lambda kv: kv[1])
 
-print("the 10 most populated countries in the world are: ")
+print("The 10 most populated countries in the world are: ")
 for i in range(1, 11):
     print(f'{i} -> {country_sort[-i:][0][0]}')
